@@ -1,5 +1,5 @@
 #pragma once
-#include <iostream>
+#include "chess.h"
 
 typedef uint64_t Bitboard;
 

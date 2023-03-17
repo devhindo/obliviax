@@ -1,4 +1,5 @@
-#include "pieces.h"
+#pragma once
+#include "chess.h"
 
 struct ChessBoard {
     Bitboard WhitePawns;
