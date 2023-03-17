@@ -2,5 +2,5 @@
 #include <iostream>
 #include "pieces.h"
 #include "board.h"
+#include "operations.h"
 
-Bitboard MaskRank(char n);
