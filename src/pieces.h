@@ -1,6 +1,4 @@
-#pragma once
-#include "chess.h"
-
+#include <iostream>
 typedef uint64_t Bitboard;
 
 Bitboard WhitePawns = 0x000000000000FF00;

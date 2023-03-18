@@ -1,3 +1,3 @@
 #pragma once
-#include "chess.h"
+#include "pieces.h"
 Bitboard MaskRank(char n);

@@ -1,4 +1,4 @@
-#include "chess.h"
+#include "operations.h"
 
 Bitboard MaskRank(char n) {
     Bitboard mask = 0x00000000000000FF;

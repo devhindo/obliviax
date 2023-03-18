@@ -1,6 +1,5 @@
 #pragma once
-#include "chess.h"
-
+#include "operations.h"
 struct ChessBoard {
     Bitboard WhitePawns;
     Bitboard WhiteRocks;
