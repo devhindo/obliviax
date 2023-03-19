@@ -9,7 +9,5 @@ int main() {
     cout << y << endl;
     bitset<64> x(board.BlackPawns);
     cout << x << endl;
-    bitset<64> z(MaskRank(1));
-    cout  << z<< endl;
 
 }
