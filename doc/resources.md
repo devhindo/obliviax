@@ -7,7 +7,6 @@
 
 - [How to add make to Git Bash on Windows](https://gist.github.com/evanwill/0207876c3243bbb6863e65ec5dc3f058#make)
 
-- [UCI protocol](https://www.shredderchess.com/chess-info/features/uci-universal-chess-interface.html)
+- [UCI protocol specs](https://www.shredderchess.com/chess-info/features/uci-universal-chess-interface.html)
 
 - [UCI chess engines](http://computer-chess.org/doku.php?id=computer_chess:wiki:lists:chess_engine_list)
-
