@@ -2,7 +2,7 @@
 
 html, body {
     font-family: 'Source Code Pro', monospace;
-    background-color: rgb(191, 191, 191);
+    background-color: rgb(244, 244, 244);
 }
 
 .container {
@@ -15,4 +15,8 @@ html, body {
 
 #title {
     text-align: center;
+}
+
+#board {
+    width: 400px;
 }
