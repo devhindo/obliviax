@@ -3,3 +3,4 @@
 *.o
 doc/roadmap.md
 private
+*.js
