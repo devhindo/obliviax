@@ -1,11 +1,10 @@
-OBJS = obliviax.o operations.o
+OBJS = obliviax.o operations.o Cmds.o
 CC = g++
 CFLAGS = -Wall -c
 LFLAGS = -Wall
 
 
-
-obliviax : obliviax.o operations.o
+obliviax : obliviax.o operations.o Cmds.o
 	$(CC) $(LFLAGS) obliviax.o operations.o -o obliviax
 
 obliviax.o : obliviax.cpp board.h operations.h pieces.h
@@ -14,5 +13,7 @@ obliviax.o : obliviax.cpp board.h operations.h pieces.h
 operations.o : operations.cpp operations.h pieces.h
 	$(CC) $(CFLAGS) operations.cpp
 
+Cmds.o : Cmds.cpp Cmds.h
+	$(CC) $(CFLAGS) Cmds.cpp 
 clean:
 	\rm *.o obliviax
