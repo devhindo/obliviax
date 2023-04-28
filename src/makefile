@@ -1,19 +1,12 @@
-OBJS = obliviax.o operations.o Cmds.o
-CC = g++
-CFLAGS = -Wall -c
-LFLAGS = -Wall
+CXXFLAGS = -std=c++11 -Wall -Wextra -pedantic
 
+SRCS = operations.cpp Cmds.cpp obliviax.cpp
+OBJS = $(SRCS:.cpp=.o)
 
-obliviax : obliviax.o operations.o Cmds.o
-	$(CC) $(LFLAGS) obliviax.o operations.o -o obliviax
+all: obliviax
 
-obliviax.o : obliviax.cpp board.h operations.h pieces.h
-	$(CC) $(CFLAGS) obliviax.cpp
+obliviax: $(OBJS)
+	$(CXX) $(CXXFLAGS) -o $@ $^
 
-operations.o : operations.cpp operations.h pieces.h
-	$(CC) $(CFLAGS) operations.cpp
-
-Cmds.o : Cmds.cpp Cmds.h
-	$(CC) $(CFLAGS) Cmds.cpp 
 clean:
-	\rm *.o obliviax
+	rm -f $(OBJS) obliviax

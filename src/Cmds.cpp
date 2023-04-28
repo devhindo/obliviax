@@ -11,7 +11,7 @@ Cmds::Cmds() {
 
 bool Cmds::isCmd(std::string cmd) {
     if(cmdsTable.find(cmd) == cmdsTable.end()) {
-        std::cout << "invalid command!";
+        std::cout << "invalid command!" << std::endl;
         return false;
     }
     return true;
