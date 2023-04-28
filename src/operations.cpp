@@ -1,6 +1,6 @@
 #include <map>
 #include <string>
-#include "chess.h"
+#include "headers/chess.h"
 
 
 Bitboard ClearRank[8] = {

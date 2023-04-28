@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Cmds.h"
+#include "headers/Cmds.h"
 
 void Cmds::quit() {
     exit(0);
@@ -7,6 +7,12 @@ void Cmds::quit() {
 
 Cmds::Cmds() {
     cmdsTable["quit"] = &Cmds::quit;
+    cmdsTable["isready"] = &Cmds::isready;
+    cmdsTable["setoption"] = &Cmds::isready;
+}
+
+void Cmds::isready() {
+    // init engine;
 }
 
 bool Cmds::isCmd(std::string cmd) {

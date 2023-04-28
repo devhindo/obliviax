@@ -1,6 +1,6 @@
 #include <iostream>
-#include "board.h"
-#include "Cmds.h"
+#include "headers/board.h"
+#include "headers/Cmds.h"
 
 int main() {
     while(true) {
