@@ -1,18 +1,18 @@
-OBJS = try.o operations.o
+OBJS = obliviax.o operations.o
 CC = g++
 CFLAGS = -Wall -c
 LFLAGS = -Wall
 
 
 
-try : try.o operations.o
-	$(CC) $(LFLAGS) try.o operations.o -o try
+obliviax : obliviax.o operations.o
+	$(CC) $(LFLAGS) obliviax.o operations.o -o obliviax
 
-try.o : try.cpp board.h operations.h pieces.h
-	$(CC) $(CFLAGS) try.cpp
+obliviax.o : obliviax.cpp board.h operations.h pieces.h
+	$(CC) $(CFLAGS) obliviax.cpp
 
 operations.o : operations.cpp operations.h pieces.h
 	$(CC) $(CFLAGS) operations.cpp
 
 clean:
-	\rm *.o try
+	\rm *.o obliviax
