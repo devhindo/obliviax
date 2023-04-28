@@ -6,6 +6,7 @@ class Cmds {
         bool isCmd(std::string);
         void quit();
         void isready();
+        void uci();
     public:
     Cmds();
     void runCmd(std::string);
