@@ -5,7 +5,7 @@
 int main() {
     while(true) {
         std::string cmd;
-        std::cin >> cmd;
+        std::getline(std::cin,cmd);
         Cmds cmds;
         cmds.runCmd(cmd);
     }
