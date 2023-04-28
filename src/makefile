@@ -9,4 +9,5 @@ obliviax: $(OBJS)
 	$(CXX) $(CXXFLAGS) -o $@ $^
 
 clean:
-	rm -f $(OBJS) obliviax
+	rm *.o
+	find . -type f -name "*.exe" ! -name "obliviax.exe" -exec rm {} +
