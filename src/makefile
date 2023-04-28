@@ -1,6 +1,6 @@
 CXXFLAGS = -std=c++11 -Wall -Wextra -pedantic
 
-SRCS = ObliviaxInfo.cpp Cmds.cpp operations.cpp obliviax.cpp
+SRCS = Toolkit.cpp ObliviaxInfo.cpp Cmds.cpp operations.cpp obliviax.cpp
 OBJS = $(SRCS:.cpp=.o)
 
 all: obliviax clean

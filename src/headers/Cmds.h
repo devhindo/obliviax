@@ -7,6 +7,8 @@ class Cmds {
         void quit();
         void isready();
         void uci();
+        void position();
+        void ucinewgame();
     public:
     Cmds();
     void runCmd(std::string);
