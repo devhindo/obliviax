@@ -21,7 +21,7 @@ Cmds::Cmds() {
 }
 
 void Cmds::isready() {
-    // init engine;
+    std::cout << "readyok" << std::endl;
 }
 
 bool Cmds::isCmd(std::string cmd) {
