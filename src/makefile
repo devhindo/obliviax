@@ -3,7 +3,7 @@ CXXFLAGS = -std=c++11 -Wall -Wextra -pedantic
 SRCS = operations.cpp Cmds.cpp obliviax.cpp
 OBJS = $(SRCS:.cpp=.o)
 
-all: obliviax
+all: obliviax clean
 
 obliviax: $(OBJS)
 	$(CXX) $(CXXFLAGS) -o $@ $^
