@@ -1,5 +1,6 @@
 #include <unordered_map>
 #include <string>
+#include <vector>
 class Cmds {
     private:
         std::unordered_map<std::string,void(Cmds::*)(std::vector<std::string>&)>cmdsTable;
