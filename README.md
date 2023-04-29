@@ -5,4 +5,3 @@
 ## Development
 
 - Run `make` to build the engine
-
