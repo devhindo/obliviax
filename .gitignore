@@ -4,3 +4,5 @@
 doc/roadmap.md
 private
 *.js
+venv
+.ipynb_checkpoints
