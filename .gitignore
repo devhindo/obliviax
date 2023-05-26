@@ -6,5 +6,4 @@ private
 *.js
 venv
 .ipynb_checkpoints
-model/content
-model/dataset.npz
+model
